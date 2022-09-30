@@ -10,7 +10,7 @@ body {
 header::before {
     background: url('Images/blue-futuristic-networking-technology_53876-100679.jpg') no-repeat center center/cover;
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
