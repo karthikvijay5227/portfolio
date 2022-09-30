@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header::before {
+    background: url('/blue-futuristic-networking-technology_53876-100679.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240%;
+    z-index: -1;
+    opacity: 0.63;
+}
+
+.navigation {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-around;
+    background-color: #14242b;
+    border-radius: 12px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 14px 20px;
+    color: azure;
+    display: inline-block;
+    position: relative;
+    color: #65c0ed;
+}
+
+.navigation a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #62c1f1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navigation a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    padding-left: 11.6em;
+    padding-top: 4.5em;
+}
+
+.desc {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 16em;
+    padding-top: 1.5em;
+    font-size: 1.2em;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+}
+
+.image img {
+    border: 2px solid red;
+    border-radius: 120px;
+    height: 21.3em;
+    width: 20.3em;
+
+}
+
+.image {
+    padding-right: 18em;
+    padding-top: 8em;
+}
+
+.foot{
+    text-align: center;
+    font-size: 1.2em;
+}
